@@ -1,11 +1,11 @@
-from PySide import QtGui
+from manifest import QtGui
 
 __author__ = 'aberg'
 
 class Model(QtGui.QGraphicsScene):
     def __init__(self):
         super(Model, self).__init__()
-        self.items = [1, 2, 3, 4, 5]
+        self.items = [1, 2, 3, 4, 5, 3, 45, 6, 56, 34, 6, 456, 345, 6, 456, 345, 65]
 
     def refresh(self):
         span_angle = 360/len(self.items)

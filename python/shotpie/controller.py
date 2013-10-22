@@ -1,8 +1,8 @@
 import sys
 from shotpie.model import Model
 from shotpie.view import View
-from PySide import QtCore
-from PySide import QtGui
+from manifest import QtCore
+from manifest import QtGui
 __author__ = 'aberg'
 
 class Controller(QtCore.QObject):

@@ -1,6 +1,6 @@
 __author__ = 'aberg'
 
-from PySide import QtGui
+from manifest import QtGui
 
 class View(QtGui.QGraphicsView):
     def __init__(self):
