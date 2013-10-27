@@ -22,6 +22,7 @@ if __name__ == "__main__":
     app = QtGui.QApplication(sys.argv)
 
     con = Controller()
+    con.view.setWindowFlags(con.view.windowFlags() | QtCore.Qt.FramelessWindowHint)
     con.view.show()
 
     app.exec_()
